@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Veuillez coller l'URL de la video:"
+read the_url
+
+cd ~/Music 
+youtube-dl -x $the_url
+
+cd ~
